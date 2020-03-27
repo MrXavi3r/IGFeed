@@ -1,0 +1,55 @@
+* {
+  border: 0px red dotted;
+}
+
+body {
+  background: #bdbdbd;
+  margin-top: 50px;
+  height: max-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  margin: auto;
+}
+
+h2 {
+  width: 300px;
+  margin: 0 0 0 10px;
+  position: absolute;
+  padding-top: 3px;
+}
+
+span {
+  float: right;
+  position: relative;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-weight: 50;
+}
+
+.post {
+  width: 400px;
+  height: 375px;
+  margin-bottom: 40px;
+  background: white;
+}
+
+header {
+  background: white;
+}
+
+header h1 {
+  margin-bottom: 20px;
+}
+
+img {
+  margin-top: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
